@@ -9,7 +9,7 @@ const HistoryTable: React.FC<HistoryTableProps> = ({ data }) => {
   return (
     <div className="rounded-lg overflow-hidden border border-gray-200">
       <div className="bg-gray-100 px-4 py-3 border-b">
-        <h3 className="text-lg font-semibold">
+        <h3 className="text-lg font-semibold text-black">
           Historical Customer Traffic (Last 24 Hours)
         </h3>
       </div>

@@ -9,7 +9,9 @@ const LiveTable: React.FC<LiveTableProps> = ({ data }) => {
   return (
     <div className="rounded-lg overflow-hidden border border-gray-200">
       <div className="bg-gray-100 px-4 py-3 border-b">
-        <h3 className="text-lg font-semibold">Live Customer Traffic</h3>
+        <h3 className="text-lg font-semibold text-black">
+          Live Customer Traffic
+        </h3>
       </div>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200">

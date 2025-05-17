@@ -137,7 +137,9 @@ const StoreTrafficDashboard: React.FC = () => {
       <div className="bg-white shadow-md rounded-lg p-6 mb-8">
         <div className="flex justify-between items-center">
           <div>
-            <h1 className="text-2xl font-bold mb-2">Store Traffic Dashboard</h1>
+            <h1 className="text-2xl font-bold mb-2 text-black">
+              Store Traffic Dashboard
+            </h1>
             <p className="text-gray-600">
               Real-time monitoring of customer traffic
             </p>
@@ -148,7 +150,7 @@ const StoreTrafficDashboard: React.FC = () => {
                 isConnected ? "bg-green-500" : "bg-red-500"
               }`}
             ></span>
-            <span>
+            <span className="text-black">
               {isConnected ? "Connected to server" : "Using mock data"}
             </span>
           </div>

@@ -103,7 +103,7 @@ export class KafkaSimulator {
     const currentOccupancy = this.storeOccupancy.get(storeId) || 0;
 
     // Generate values with higher probability of zero to make the data more realistic
-    const customersIn = this.generateRandomWithZeroWeight(3);
+    const customersIn = this.generateRandomWithZeroWeight(4);
 
     // Make sure we don't have more customers leaving than are in the store
     const maxPossibleOut = Math.min(currentOccupancy, 3);
