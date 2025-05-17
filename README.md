@@ -37,8 +37,8 @@ cd server
 # Install dependencies
 npm install
 
-# Start the development server
-npm run dev
+# Start the development server with mongo
+npm run dev:with-mongo
 ```
 
 #### Frontend Setup
